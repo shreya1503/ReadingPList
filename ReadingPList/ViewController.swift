@@ -10,11 +10,56 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        readPlistData()
     }
-
+    func readPlistData()
+    {
+    
+        if let bundlePath = Bundle.main.path(forResource: "Employee", ofType: "plist")
+        {
+          //  print(bundlePath)
+            
+           if let dictionary = NSMutableDictionary(contentsOfFile: bundlePath)
+           {
+                //print(dictionary)
+            
+                if let countries = dictionary["Countries"] as? [String]
+                {
+                    for v in countries
+                    {
+                        print(v)
+                
+                    }
+                }
+            
+            if let usersList = dictionary["Users"] as? [[String:String]]
+                {
+                    var flag = false
+                        for user in usersList
+                        {
+                           if user["username"] == "abc" && user["password"] == "abc@123"
+                           {
+                                flag = true
+                            }
+                    }
+                    
+                    if flag == true
+                    {
+                        print("Valid User")
+                    }
+                    else
+                    {
+                        print("Invalid User")
+                    }
+                    
+                }
+            
+            }
+        }
+    }
 
 }
 

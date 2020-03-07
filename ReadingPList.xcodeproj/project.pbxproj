@@ -13,6 +13,7 @@
 		9BA1635524131019007940E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1635324131019007940E3 /* Main.storyboard */; };
 		9BA163572413101C007940E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA163562413101C007940E3 /* Assets.xcassets */; };
 		9BA1635A2413101C007940E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA163582413101C007940E3 /* LaunchScreen.storyboard */; };
+		9BA163642413116B007940E3 /* Employee.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BA163632413116B007940E3 /* Employee.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9BA163562413101C007940E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA163592413101C007940E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA1635B2413101C007940E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA163632413116B007940E3 /* Employee.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Employee.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9BA163562413101C007940E3 /* Assets.xcassets */,
 				9BA163582413101C007940E3 /* LaunchScreen.storyboard */,
 				9BA1635B2413101C007940E3 /* Info.plist */,
+				9BA163632413116B007940E3 /* Employee.plist */,
 			);
 			path = ReadingPList;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA163642413116B007940E3 /* Employee.plist in Resources */,
 				9BA1635A2413101C007940E3 /* LaunchScreen.storyboard in Resources */,
 				9BA163572413101C007940E3 /* Assets.xcassets in Resources */,
 				9BA1635524131019007940E3 /* Main.storyboard in Resources */,
